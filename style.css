@@ -573,9 +573,26 @@ footer{
     width: 100%;
     text-align: center; /* If you want the text to be left-aligned on small screens */
   }
+  #logo h1 {
+      margin-top: 100px;
+  }
 }
 
+
+
  /* MEDIA */
+
+ @media screen and (max-width: 954px) {
+  #hero-image {
+    background: url('./images/mobilebanner1.png') no-repeat center;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #hero-image {
+    background: url('./images/mobilebanner2.png') no-repeat center;
+  }
+
  @media screen and (max-width: 600px) {
   .topnav .search-container {
     float: none;
@@ -591,7 +608,23 @@ footer{
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
+
+  .container p{
+  margin: 55px 10px 50px 10px
+  }
 }
+
+
+@media screen and (max-width: 954px) {
+  .container h2 {
+    margin: 0px;
+  }
+}
+
+
+
+
+
 
 /*
  * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
