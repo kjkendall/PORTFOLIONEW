@@ -588,6 +588,11 @@ footer{
   }
 }
 
+@media screen and (max-width: 540px)
+.-fx-image-gal {
+    width: 100% !important;
+}
+
 @media screen and (max-width: 568px) {
   #hero-image {
     background: url('./images/mobilebanner2.png') no-repeat center;
